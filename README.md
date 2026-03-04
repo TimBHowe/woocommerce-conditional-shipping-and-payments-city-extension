@@ -1,4 +1,4 @@
-# WooCommerce Conditional Shipping and Payments - Street Address Extension
+# WooCommerce Conditional Shipping and Payments - City Extension
 
 This plugin is to extends the [WooCommerce Conditional Shipping and Payments](https://woocommerce.com/products/conditional-shipping-and-payments/) plugin to allow conditional logic to be applied to the shipping and/or billing city fields to check if the do or do not contain specified strings.
 
@@ -19,7 +19,7 @@ This plugin was created with the intention of being an example/demo of how it wo
  To use the new feature simple follow the same steps you would to add a [global or product based restriction](https://woocommerce.com/document/woocommerce-conditional-shipping-and-payments/#creating-restrictions).
 
  #### Example
- This is an example of how the plugin can be used to set a global restriction on a shipping method from being selected if a PO Box shipping address is entered.
+ This is an example of how the plugin can be used to set a global restriction on a shipping method from being selected if a certain city or suburb is entered.
 
  1. After logging in go to WooCommerce > Settings then the Restrictions tab.
  1. Under the Shipping Methods click the 'Add Restriction' button.
@@ -34,7 +34,9 @@ This plugin was created with the intention of being an example/demo of how it wo
 1. Select the country as Australia and state/county to Australia - Victoria.
 1. Save the restriction.
 
-This example will look at the shipping city/suburb and if any of the variation someone might use when filling out a shipping form to denote the Australian suburb of Preston, NSW strings are using for the shipping city/suburb, or billing address if used as shipping, it will exclude the shipping methods mentioned in the restriction.
+This example will look at the shipping city/suburb and if any of the variation someone might use when filling out a shipping form to denote the Australian suburb of Preston, Victoria strings are using for the shipping city/suburb, or billing address if used as shipping, it will exclude the shipping methods mentioned in the restriction.
+
+This example can be repeated for other restrictions as well. 
 
 ![alt text](image-2.png)
 
